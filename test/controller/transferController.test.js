@@ -76,6 +76,7 @@ describe('Transfer Controller', () => {
                 });
             
             expect(resposta.status).to.equal(201);
+            console.log(resposta.body);
             
             // Validação com um Fixture
             const respostaEsperada = require('../fixture/respostas/quandoInformoValoresValidosEuTenhoSucessoCom201Created.json')
